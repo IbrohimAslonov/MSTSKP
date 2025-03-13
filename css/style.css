@@ -602,7 +602,7 @@ footer span {
 }
 
 /* shadow example */
-
+/* 
 .shadow-row {
   margin-bottom: 100px;
   gap: 20px;
@@ -670,7 +670,7 @@ footer span {
   width: 310px;
   height: 550px;
   box-shadow: 0 0 40px 15px #61732d;
-}
+} */
 
 /* responsive start */
 
