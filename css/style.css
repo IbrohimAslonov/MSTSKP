@@ -1,54 +1,5 @@
-@font-face {
-  font-family: "SansItalic";
-  src: url(../assets/fonts/SourceSans/SourceSans3-Light.ttf);
-}
-
-@font-face {
-  font-family: "SansRegular";
-  src: url(../assets/fonts/SourceSans/SourceSans3-Regular.ttf);
-}
-
-@font-face {
-  font-family: "SansMedium";
-  src: url(../assets/fonts/SourceSans/SourceSans3-Medium.ttf);
-}
-
-@font-face {
-  font-family: "SansBlack";
-  src: url(../assets/fonts/SourceSans/SourceSans3-Black.ttf);
-}
-
-@font-face {
-  font-family: "SansBold";
-  src: url(../assets/fonts/SourceSans/SourceSans3-Bold.ttf);
-}
-
-* {
-  margin: 0 auto;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "SansRegular";
-  scroll-behavior: smooth;
-}
-
-a {
-  text-decoration: none;
-}
-
-li {
-  list-style-type: none;
-}
-.container {
-  /* width-120*2+padding */
-  max-width: 1258px;
-  margin: 0 auto;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-body {
-  background-color: #fff6ed;
-}
+@import "common.css";
+@import "variables.css";
 
 /* header start  */
 
@@ -399,7 +350,7 @@ nav {
   height: 200px;
   border-radius: 10px;
   text-align: center;
-  background-color: #f3eae3;
+  background-color: var(--gimana-color);
 }
 
 .gimana .gimana-bottom .gimana-card img {
@@ -611,7 +562,7 @@ footer span {
 }
 
 .card-shadow {
-  width: 300px;
+  width: 300px;   
   height: 500px;
   padding: 25px;
   border-radius: 15px;
@@ -633,7 +584,7 @@ footer span {
   flex-direction: column;
   text-align: center;
   color: white;
-  /* background-color: #512; */
+  background-color: #512;
   background-image: url(https://avatars.mds.yandex.net/i?id=d6331c3ab19c2ff1e894cabf9f9d2031c4f99006-5289481-images-thumbs&n=13);
   background-repeat: no-repeat;
   background-size: cover;
